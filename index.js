@@ -51,7 +51,7 @@ app.use((req, res, next) => {
 
 app.use('/', indexRouter);
 
-app.use('/', authRouter);F
+app.use('/', authRouter);
 
 app.use('/', authRouter);
 
