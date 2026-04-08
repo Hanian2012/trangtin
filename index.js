@@ -63,6 +63,6 @@ app.listen(3000, () => {
 
 	console.log('Server is running at https://github.com/Hanian2012/trangtin');
 
-	console.log('Server is running at http://127.0.0.1:3000');
+
 
 });
