@@ -50,11 +50,19 @@ app.use((req, res, next) => {
 });
 
 app.use('/', indexRouter);
+
 app.use('/', authRouter);F
+
+app.use('/', authRouter);
+
 app.use('/chude', chudeRouter);
 app.use('/taikhoan', taikhoanRouter);
 app.use('/baiviet', baivietRouter);
 
 app.listen(3000, () => {
+
 	console.log('Server is running at https://github.com/Hanian2012/trangtin');
+
+	console.log('Server is running at http://127.0.0.1:3000');
+
 });
