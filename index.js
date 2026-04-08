@@ -61,7 +61,7 @@ app.use('/baiviet', baivietRouter);
 
 app.listen(3000, () => {
 
-	console.log('Server is running at https://github.com/Hanian2012/trangtin');
+	console.log('Server is running at https://github.com/Hanian2012/trangtin.git');
 
 
 
